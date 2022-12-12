@@ -15,6 +15,12 @@
                     @endif
 
                     {{ __('You are logged in!') }}
+                    @role('developer')
+                        Hello developer
+                    @endrole
+                    @role('manager')
+                        Hello manager
+                    @endrole
                 </div>
             </div>
         </div>

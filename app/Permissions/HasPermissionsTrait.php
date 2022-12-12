@@ -1,6 +1,7 @@
 <?php 
 namespace App\Permissions;
 
+use App\Models\Role;
 use App\Models\Permission;
 
 trait HasPermissionsTrait{
